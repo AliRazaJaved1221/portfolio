@@ -76,49 +76,52 @@ export const skillGroups = [
 
 export const projects = [
   {
+    title: "Automation Builder",
+    description:
+      "Built and maintained automated business processes across multiple client workflows using Airtable, GHL, Make.com and other automation tools. Connected platforms through APIs and workflow logic to automate data movement and reduce manual operational work, troubleshooting workflow failures to improve reliability and process execution.",
+    tags: ["Airtable", "GoHighLevel (GHL)", "Make.com", "n8n", "API Integrations"],
+    link: "#",
+    repo: "https://github.com/AliRazaJaved1221",
+  },
+  {
+    title: "Airtable Automation Developer",
+    description:
+      "Built a data operations system in Airtable with custom JavaScript automations integrating Shopify, Amazon, GA4, advertising platforms and Klaviyo. Implemented automated P&L reporting, a rules-based inventory classifier, and customer segmentation synchronized with Shopify, debugging refund COGS and API attribution issues.",
+    tags: ["Airtable", "JavaScript", "Shopify", "Amazon", "GA4", "Klaviyo", "Advertising Platforms"],
+    link: "#",
+    repo: "https://github.com/AliRazaJaved1221",
+  },
+  {
+    title: "QuickBooks Automated Reporting Pipeline",
+    description:
+      "Built an automated pipeline where clients upload QuickBooks files and financial data is processed through a structured workflow. Automated report generation from uploaded accounting data, reducing repetitive manual processing and improving reporting efficiency.",
+    tags: ["Workflow Automation", "QuickBooks", "Data Processing", "Automated Reporting"],
+    link: "#",
+    repo: "https://github.com/AliRazaJaved1221",
+  },
+  {
+    title: "AI Agents",
+    description:
+      "Worked on the knowledge management component with a focus on efficient data retrieval and query handling using FalkorDB. Designed and executed Cypher queries, optimized query strategies, and structured knowledge data for reliable, context-aware retrieval.",
+    tags: ["FalkorDB", "Cypher", "Knowledge Management", "AI Agents"],
+    link: "#",
+    repo: "https://github.com/AliRazaJaved1221",
+  },
+  {
     title: "Wellness Core AI",
     description:
-      "A health-focused application with pixel-perfect React.js screens on the frontend and Python Flask services on the backend, integrating specialized libraries to process health documents and chats for accurate, relevant responses.",
-    tags: ["React.js", "Flask", "Python", "Healthcare"],
+      "Developed pixel-perfect React.js frontend screens and backend services with Python Flask. Integrated specialized libraries for processing health documents and chats and resolved technical issues affecting performance and user experience.",
+    tags: ["React.js", "Python", "Flask", "AI / Document Processing"],
     link: "#",
-    repo: "#",
-    date: "May 2025 — Aug 2025",
+    repo: "https://github.com/AliRazaJaved1221",
   },
   {
-    title: "Fastyr — AI Agents & Knowledge Management",
+    title: "Online Pets Buying and Selling Store",
     description:
-      "Working on the knowledge management layer of an AI agents platform, designing and executing Cypher queries against FalkorDB for accurate, context-aware retrieval, and optimizing how the knowledge base is structured for reliable responses.",
-    tags: ["FalkorDB", "Cypher", "Python", "AI Agents"],
-    link: null,
-    repo: null,
-    date: "Aug 2025 — Present",
-  },
-  {
-    title: "Insight Bridge — Conversational BI Pipeline",
-    description:
-      "Architected an end-to-end conversational BI pipeline connecting Google BigQuery to Claude for natural-language data analysis, alongside standardized executive reporting in Looker Studio. Engineered SQL views to codify business logic, clean up schemas, and pre-join mapping tables into a single source of truth, then configured OAuth 2.0 client credentials with scoped API access in Google Cloud Console so Claude could query and manipulate data safely without compromising warehouse integrity — giving non-technical stakeholders both high-level dashboards and ad-hoc, AI-driven hypothesis testing.",
-    tags: ["BigQuery", "Claude", "Looker Studio", "OAuth 2.0", "SQL"],
-    link: null,
-    repo: null,
-    date: "2025 — Present",
-  },
-  {
-    title: "E-Commerce Financial Reconciliation & P&L Engine",
-    description:
-      "An automated e-commerce financial engine that synchronizes multi-channel Shopify sales, refunds, and shipping logistics into a relational Airtable database, dynamically tracking real-time COGS, return shipping expenses, and monthly profitability with high accuracy.",
-    tags: ["JavaScript", "Airtable", "Shopify API", "GoShippo API", "E-Commerce"],
+      "Built responsive frontend screens from scratch for a university marketplace project. Used React Hooks for state management and data consistency while contributing to application architecture and user experience.",
+    tags: ["React.js", "React Bootstrap", "React Hooks"],
     link: "#",
-    repo: "#",
-    date: "2024 — Present",
-  },
-  {
-    title: "Online Pets Buying & Selling Store",
-    description:
-      "A university project built from scratch with React.js and React Bootstrap for a sleek, intuitive interface, using Hooks for state management and data consistency across the app.",
-    tags: ["React.js", "React Bootstrap", "Hooks"],
-    link: "#",
-    repo: "#",
-    date: "Jan 2024 — Dec 2024",
+    repo: "https://github.com/AliRazaJaved1221",
   },
 ];
 

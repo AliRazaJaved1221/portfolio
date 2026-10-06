@@ -1,6 +1,15 @@
 import React, { useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { FiArrowUpRight, FiGithub, FiBarChart2, FiCpu, FiHeart, FiShoppingBag, FiDollarSign } from "react-icons/fi";
+import {
+  FiArrowUpRight,
+  FiGithub,
+  FiZap,
+  FiDatabase,
+  FiBarChart2,
+  FiCpu,
+  FiHeart,
+  FiShoppingBag,
+} from "react-icons/fi";
 import SectionHeading from "./SectionHeading";
 import AnimatedIcon from "./AnimatedIcon";
 import { popUp } from "../lib/motion";
@@ -9,11 +18,12 @@ import { projects } from "../data/portfolioData";
 // Distinct animated icon per project — keyed by title so the icon stays
 // attached to its project regardless of display order.
 const PROJECT_ICON_BY_TITLE = {
+  "Automation Builder": { icon: FiZap, variant: "wiggle" },
+  "Airtable Automation Developer": { icon: FiDatabase, variant: "pulse" },
+  "QuickBooks Automated Reporting Pipeline": { icon: FiBarChart2, variant: "float" },
+  "AI Agents": { icon: FiCpu, variant: "pulse" },
   "Wellness Core AI": { icon: FiHeart, variant: "heartbeat" },
-  "Fastyr — AI Agents & Knowledge Management": { icon: FiCpu, variant: "pulse" },
-  "Insight Bridge — Conversational BI Pipeline": { icon: FiBarChart2, variant: "pulse" },
-  "E-Commerce Financial Reconciliation & P&L Engine": { icon: FiDollarSign, variant: "pulse" },
-  "Online Pets Buying & Selling Store": { icon: FiShoppingBag, variant: "float" },
+  "Online Pets Buying and Selling Store": { icon: FiShoppingBag, variant: "float" },
 };
 const DEFAULT_PROJECT_ICON = { icon: FiCpu, variant: "float" };
 
