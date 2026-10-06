@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import {
-  FiArrowUpRight,
-  FiGithub,
   FiZap,
   FiDatabase,
   FiBarChart2,
@@ -70,28 +68,14 @@ function ProjectCard({ project, index }) {
           }}
         />
         <div className="relative flex flex-1 flex-col" style={{ transform: "translateZ(30px)" }}>
-          <div className="mb-4 flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              {/* Animated icon — plays continuously */}
-              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-violet-500/10 text-violet-600">
-                <AnimatedIcon icon={ProjectIcon} variant={variant} size={20} color="currentColor" />
-              </div>
-              <h3 className="font-display text-xl font-semibold text-ink-900">
-                {project.title}
-              </h3>
+          <div className="mb-4 flex items-center gap-3">
+            {/* Animated icon — plays continuously */}
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-violet-500/10 text-violet-600">
+              <AnimatedIcon icon={ProjectIcon} variant={variant} size={20} color="currentColor" />
             </div>
-            <div className="flex gap-3 text-lg text-smoke">
-              {project.repo && (
-                <a href={project.repo} data-cursor-hover aria-label="Repository" className="transition-colors hover:text-violet-500">
-                  <FiGithub />
-                </a>
-              )}
-              {project.link && (
-                <a href={project.link} data-cursor-hover aria-label="Live site" className="transition-colors hover:text-coral-500">
-                  <FiArrowUpRight />
-                </a>
-              )}
-            </div>
+            <h3 className="font-display text-xl font-semibold text-ink-900">
+              {project.title}
+            </h3>
           </div>
           <p className="text-sm leading-relaxed text-smoke">{project.description}</p>
           <div className="mt-auto flex flex-wrap gap-2 pt-5">

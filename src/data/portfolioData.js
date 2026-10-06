@@ -80,48 +80,36 @@ export const projects = [
     description:
       "Built and maintained automated business processes across multiple client workflows using Airtable, GHL, Make.com and other automation tools. Connected platforms through APIs and workflow logic to automate data movement and reduce manual operational work, troubleshooting workflow failures to improve reliability and process execution.",
     tags: ["Airtable", "GoHighLevel (GHL)", "Make.com", "n8n", "API Integrations"],
-    link: "#",
-    repo: "https://github.com/AliRazaJaved1221",
   },
   {
     title: "Airtable Automation Developer",
     description:
       "Built a data operations system in Airtable with custom JavaScript automations integrating Shopify, Amazon, GA4, advertising platforms and Klaviyo. Implemented automated P&L reporting, a rules-based inventory classifier, and customer segmentation synchronized with Shopify, debugging refund COGS and API attribution issues.",
     tags: ["Airtable", "JavaScript", "Shopify", "Amazon", "GA4", "Klaviyo", "Advertising Platforms"],
-    link: "#",
-    repo: "https://github.com/AliRazaJaved1221",
   },
   {
     title: "QuickBooks Automated Reporting Pipeline",
     description:
       "Built an automated pipeline where clients upload QuickBooks files and financial data is processed through a structured workflow. Automated report generation from uploaded accounting data, reducing repetitive manual processing and improving reporting efficiency.",
     tags: ["Workflow Automation", "QuickBooks", "Data Processing", "Automated Reporting"],
-    link: "#",
-    repo: "https://github.com/AliRazaJaved1221",
   },
   {
     title: "AI Agents",
     description:
       "Worked on the knowledge management component with a focus on efficient data retrieval and query handling using FalkorDB. Designed and executed Cypher queries, optimized query strategies, and structured knowledge data for reliable, context-aware retrieval.",
     tags: ["FalkorDB", "Cypher", "Knowledge Management", "AI Agents"],
-    link: "#",
-    repo: "https://github.com/AliRazaJaved1221",
   },
   {
     title: "Wellness Core AI",
     description:
       "Developed pixel-perfect React.js frontend screens and backend services with Python Flask. Integrated specialized libraries for processing health documents and chats and resolved technical issues affecting performance and user experience.",
     tags: ["React.js", "Python", "Flask", "AI / Document Processing"],
-    link: "#",
-    repo: "https://github.com/AliRazaJaved1221",
   },
   {
     title: "Online Pets Buying and Selling Store",
     description:
       "Built responsive frontend screens from scratch for a university marketplace project. Used React Hooks for state management and data consistency while contributing to application architecture and user experience.",
     tags: ["React.js", "React Bootstrap", "React Hooks"],
-    link: "#",
-    repo: "https://github.com/AliRazaJaved1221",
   },
 ];
 
